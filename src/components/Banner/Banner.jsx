@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../../Styles/font-style.css'
 
 const Banner = () => {
@@ -8,7 +9,7 @@ const Banner = () => {
                 <h1 className='text-[56px] text-[#131313] font-bold playfair-display'>
                     Books to freshen up <br /> your bookshelf
                 </h1>
-                <button className='btn bg-[#23BE0A] text-white work-sans text-[20px] font-bold mt-12'>View The List</button>
+                <NavLink to="/listed-books"><button className='btn bg-[#23BE0A] text-white work-sans text-[20px] font-bold mt-12'>View The List</button></NavLink>
             </div>
             <div>
                 <img src="https://m.media-amazon.com/images/I/917Bc9C1MlL._SL1500_.jpg" className='w-[200px] ' alt="" />
