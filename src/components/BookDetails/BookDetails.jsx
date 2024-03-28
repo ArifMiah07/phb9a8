@@ -1,7 +1,7 @@
 // import { useLoaderData, useParams } from "react-router-dom";
 // import BooksDetails from "../BooksDetails/BooksDetails";
 import PropTypes from "prop-types";
-import { setReadBooks } from "../../utility";
+import { setReadBooks, setWishlistBooks } from "../../utility";
 import Toast from "../Toast/Toast";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -16,6 +16,11 @@ const BookDetails = ({books}) => {
     const handleReadBooks = (books)=> {
         console.log(books);
         setReadBooks(books)
+    }
+
+    const handleWishlistBooks = (books)=>{
+        console.log(books);
+        setWishlistBooks(books);
     }
     return (
         <div className="flex flex-col lg:flex lg:flex-row gap-12">
@@ -73,7 +78,7 @@ const BookDetails = ({books}) => {
                         onClick={()=>handleReadBooks(books)}
                     className="btn ">Read</button>
                     <button 
-                        // onClick={()=> handleWishlistBooks(books)}
+                        onClick={()=> handleWishlistBooks(books)}
                     className="btn bg-[#50B1C9] ">Wishlist</button>
                     <Toast></Toast>
                 </div>

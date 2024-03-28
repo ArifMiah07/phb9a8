@@ -27,3 +27,34 @@ export const removeReadBooks = (id) =>{
     localStorage.setItem('readBooks', JSON.stringify(remaining))
     toast.success('removed');
 }
+
+
+//wishlist
+
+
+export const getWishlistBooks = ()=>{
+    let wishlistBooks = [];
+    const storedWishlistBooks = localStorage.getItem('wishlistBooks');
+    if(storedWishlistBooks){
+        wishlistBooks = JSON.parse(storedWishlistBooks);
+    }
+    return wishlistBooks;
+}
+//save
+export const setWishlistBooks = (wishlistBook) =>{
+    let wishlistBooks = getWishlistBooks()
+    const isExist = wishlistBooks.find(wlb => wlb.id === wishlistBook.id)
+    if(isExist){
+        return toast.error('Already Added to Wishlist');
+    }
+    wishlistBooks.push(wishlistBook)
+    localStorage.setItem('wishlistBooks', JSON.stringify(wishlistBooks))
+    toast.success('Book added to read list')
+}
+//dlt
+export const removeWishlistBooks = (id) =>{
+    let wishlistBooks = getWishlistBooks()
+    const remaining = wishlistBooks.filter(rwlb => rwlb.id !== id)
+    localStorage.setItem('wishlistBooks', JSON.stringify(remaining))
+    toast.success('removed');
+}
