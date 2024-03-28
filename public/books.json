@@ -1,6 +1,6 @@
 [
     {
-        "bookId": 1,
+        "id": 1,
         "bookName": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "image": "https://i0.wp.com/americanwritersmuseum.org/wp-content/uploads/2018/02/CK-3.jpg",
@@ -13,7 +13,7 @@
         "yearOfPublishing": 1925
     },
     {
-        "bookId": 2,
+        "id": 2,
         "bookName": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2017/07/2a34d8_bb2c2e2052ee41bf9ceb8e13a3a1d0femv2.jpg",
@@ -26,7 +26,7 @@
         "yearOfPublishing": 1960
     },
     {
-        "bookId": 3,
+        "id": 3,
         "bookName": "1984",
         "author": "George Orwell",
         "image": "https://i.pinimg.com/564x/40/e6/48/40e6483b1973252fc21637ef9b6e68d7.jpg",
@@ -39,7 +39,7 @@
         "yearOfPublishing": 1949
     },
     {
-        "bookId": 4,
+        "id": 4,
         "bookName": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "image": "https://i.pinimg.com/564x/bc/4e/d6/bc4ed664de4e59f0724ff517caef6747.jpg",
@@ -52,7 +52,7 @@
         "yearOfPublishing": 1951
     },
     {
-        "bookId": 5,
+        "id": 5,
         "bookName": "Harry Potter and the Sorcerer's Stone",
         "author": "J.K. Rowling",
         "image": "https://i.pinimg.com/564x/bf/6e/d4/bf6ed406c92d8dd948660faca24a32c4.jpg",
@@ -65,7 +65,7 @@
         "yearOfPublishing": 1997
     },
     {
-        "bookId": 6,
+        "id": 6,
         "bookName": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "image": "https://i.pinimg.com/564x/08/d5/cb/08d5cbb5c1618e3beb837150486c702a.jpg",
@@ -78,7 +78,7 @@
         "yearOfPublishing": 1937
     },
     {
-        "bookId": 7,
+        "id": 7,
         "bookName": "The Lord of the Rings",
         "author": "J.R.R. Tolkien",
         "image": "https://s26162.pcdn.co/wp-content/uploads/2017/05/the-lord-of-the-rings-book-cover.jpg",
@@ -91,7 +91,7 @@
         "yearOfPublishing": 1954
       },
       {
-        "bookId": 8,
+        "id": 8,
         "bookName": "The Hitchhiker's Guide to the Galaxy",
         "author": "Douglas Adams",
         "image": "https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/f2c1107f-3fc3-4235-a480-524d1b40102e/hitchhikers-guide-to-the-galaxy-80s.jpg?w=404&h=599&auto=format&bg=%23efefef&fit=crop",
@@ -104,7 +104,7 @@
         "yearOfPublishing": 1979
       },
       {
-        "bookId": 9,
+        "id": 9,
         "bookName": "The Hunger Games",
         "author": "Suzanne Collins",
         "image": "https://static.wikia.nocookie.net/35906ec1-bfcd-48bc-9ca3-68cd76fbe9e0/scale-to-width/755",
