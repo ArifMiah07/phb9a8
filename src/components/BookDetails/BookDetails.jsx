@@ -1,12 +1,22 @@
 // import { useLoaderData, useParams } from "react-router-dom";
 // import BooksDetails from "../BooksDetails/BooksDetails";
 import PropTypes from "prop-types";
+import { setReadBooks } from "../../utility";
+import Toast from "../Toast/Toast";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 const BookDetails = ({books}) => {
     console.log(books);
-    const { id, bookName, author, image, review, totalPages, rating, category, tags, publisher, yearOfPublishing  } = books;
+    const { bookName, author, image, review, totalPages, rating, category, tags, publisher, yearOfPublishing  } = books;
     
+
+
+    const handleReadBooks = (books)=> {
+        console.log(books);
+        setReadBooks(books)
+    }
     return (
         <div className="flex flex-col lg:flex lg:flex-row gap-12">
             {/* img */}
@@ -59,8 +69,13 @@ const BookDetails = ({books}) => {
                 </div>
                 {/* btn */}
                 <div>
-                    <button className="btn ">Read</button>
-                    <button className="btn bg-[#50B1C9] ">Wishlist</button>
+                    <button 
+                        onClick={()=>handleReadBooks(books)}
+                    className="btn ">Read</button>
+                    <button 
+                        // onClick={()=> handleWishlistBooks(books)}
+                    className="btn bg-[#50B1C9] ">Wishlist</button>
+                    <Toast></Toast>
                 </div>
             </div>
         </div>
