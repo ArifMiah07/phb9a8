@@ -14,11 +14,15 @@ const Books = () => {
         .then(data => setBooks(data));
     }, [])
     return (
-        <div className="w-[1170px] mx-auto ">
-            this is Books: {books.length}
-            {
-                books.map((book)=> <Book key={book.bookId} book={book}></Book>)
-            }
+        <div className=" lg:w-[1170px] mx-auto mt-20 mb-6 ">
+            <div>
+                <h1 className="text-center text-[#131313] font-bold mb-8 playfair-display text-[40px] ">Books</h1>
+            </div>
+            <div className="grid grid-cols-1 lg:grid lg:grid-cols-3 gap-6">
+                {
+                    books.map((book)=> <Book key={book.bookId} book={book}></Book>)
+                }
+            </div>
         </div>
     );
 };

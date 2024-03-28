@@ -3,7 +3,7 @@ import '../../Styles/font-style.css'
 
 const Banner = () => {
     return (
-        <div className='lg:w-[1170px] mx-auto banner flex flex-col lg:flex lg:flex-row items-center gap-4 justify-between py-16 px-20'>
+        <div className='lg:w-[1170px] mx-auto mt-8 banner flex flex-col lg:flex lg:flex-row items-center gap-4 justify-between py-16 px-20'>
             {/* <h1>This is banner</h1> */}
             <div>
                 <h1 className='text-[56px] text-[#131313] font-bold playfair-display'>

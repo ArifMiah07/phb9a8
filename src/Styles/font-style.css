@@ -58,10 +58,17 @@
     background: rgba(19, 19, 19, 0.05);
   }
   .book-bgr{
-    border-radius: 16px;
-    background: #F3F3F3;
+    border-radius: 30px;
+    background: rgba(35, 190, 10, 0.05);
   }
   .book-img{
     width: 134px;
     height: 166px;
+  }
+
+  .books-con{
+    border-radius: 16px;
+    border: 1px solid rgba(19, 19, 19, 0.15);
+    /* background: #13131326; */
+/* color: ; */
   }
