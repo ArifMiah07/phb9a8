@@ -76,3 +76,8 @@
     border-radius: 16px;
     background: rgba(19, 19, 19, 0.05);
   }
+  .e{
+    color: #131313cc;
+    background: rgba(19, 19, 19, 0.149);
+    font-family: "Work Sans";
+  }

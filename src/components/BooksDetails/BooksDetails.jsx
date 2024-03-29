@@ -16,9 +16,6 @@ const BooksDetails = () => {
     
     return (
         <div className="lg:w-[1170px] mx-auto my-12 h-screen">
-            {/* <h1>this book details:</h1>
-            <h2>{id}</h2>
-            <h2>{bookDetails.length}</h2> */}
             <BookDetails key={books.id} books={books}></BookDetails>
         </div>
     );
