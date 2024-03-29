@@ -16,5 +16,5 @@ Explore our Books Store today and embark on a literary adventure like no other. 
 
 Currently, two official link are available: 
 
-- [@GithubRepoLink](https://github.com/programming-hero-web-course-4/b9a8-book-vibe-ArifMiah07) uses [Babel](https://babeljs.io/) 
+- [@GithubRepoLink](https://github.com/programming-hero-web-course-4/b9a8-book-vibe-ArifMiah07) 
 - [@LiveLink](https://b9a8-react-book-store.netlify.app/) 

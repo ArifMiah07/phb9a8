@@ -9,7 +9,7 @@ const PagesToRead = () => {
         const storedReadBookData = getReadBooks();
         setReadBookData(storedReadBookData);
     }, [])
-    console.log(readBooksData);
+    // console.log(readBooksData);
 
     
 

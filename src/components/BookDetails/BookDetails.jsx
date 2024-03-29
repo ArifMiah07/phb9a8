@@ -8,18 +8,18 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const BookDetails = ({books}) => {
-    console.log(books);
+    // console.log(books);
     const { bookName, author, image, review, totalPages, rating, category, tags, publisher, yearOfPublishing  } = books;
     
 
 
     const handleReadBooks = (books)=> {
-        console.log(books);
+        // console.log(books);
         setReadBooks(books)
     }
 
     const handleWishlistBooks = (books)=>{
-        console.log(books);
+        // console.log(books);
         setWishlistBooks(books);
     }
     return (
