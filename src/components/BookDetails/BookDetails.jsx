@@ -2,9 +2,9 @@
 // import BooksDetails from "../BooksDetails/BooksDetails";
 import PropTypes from "prop-types";
 import { setReadBooks, setWishlistBooks } from "../../utility";
-// import Toast from "../Toast/Toast";
+import Toast from "../Toast/Toast";
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const BookDetails = ({books}) => {
@@ -80,7 +80,7 @@ const BookDetails = ({books}) => {
                     <button 
                         onClick={()=> handleWishlistBooks(books)}
                     className="btn bg-[#50B1C9] ">Wishlist</button>
-                    {/* <Toast></Toast> */}
+                    <Toast></Toast>
                 </div>
             </div>
         </div>

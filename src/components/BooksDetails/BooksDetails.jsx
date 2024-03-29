@@ -9,8 +9,8 @@ const BooksDetails = () => {
     const intId = parseInt(id);
     const books = bookDetails.find(book => book.id === intId);
 
-    console.log(bookDetails);
-    console.log(books);
+    // console.log(bookDetails);
+    // console.log(books);
 
     
     

@@ -1,4 +1,5 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import PropTypes from 'prop-types';
 
 const getPath = (x, y, width, height) => (
   `M${x},${y + height}
@@ -24,5 +25,10 @@ const Chart = ({readBooksData}) => {
     </BarChart>
   );
 };
+
+
+Chart.propTypes = {
+  readBooksData: PropTypes.array
+}
 
 export default Chart;
