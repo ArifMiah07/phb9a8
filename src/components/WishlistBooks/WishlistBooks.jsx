@@ -7,7 +7,7 @@ import WishlistBook from "../WishlistBook/WishlistBook";
 
 const WishlistBooks = () => {
     
-    const [books,setBooks] = useState([]);
+    const [books, setBooks] = useState([]);
 
     useEffect( ()=>{
         const storedReadBookData = getWishlistBooks();
